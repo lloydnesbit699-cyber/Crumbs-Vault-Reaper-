@@ -1,3 +1,35 @@
+# ============================
+# Solidity / Hardhat / Foundry
+# ============================
+
+# Hardhat artifacts
+artifacts/
+cache/
+
+# Typechain output
+typechain/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+
+# Hardhat network data
+hh-cache/
+deployments/
+
+# Foundry broadcast
+broadcast/
+
+# Ignore compiled contract JSON (ABIs, bytecode)
+*.json
+
+# Build outputs
+dist/
+build/
+out/
+
+
 # Logs
 logs
 *.log
